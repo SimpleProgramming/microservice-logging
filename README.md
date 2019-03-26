@@ -1,4 +1,4 @@
-# microservice-logging
+# Microservices Logging
 
 # Introduction
 
