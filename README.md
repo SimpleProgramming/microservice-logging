@@ -1,5 +1,7 @@
 # microservice-logging
 
+# Introduction
+
 Let us see how to configure and use ELK Stack in other words ElasticSearch Logstash and Kibana for application logging
 
 A major challenge in a distributed system (e.g. a system landscape of microservices) is to understand what is going on and even more importantly – what is going wrong, where and why. In this blog post we will see how we can use the ELK stack (i.e. Elasticsearch, Logstash and Kibana, ) from Elastic to aggregate log events from our microservices
@@ -8,6 +10,18 @@ There are lot of tools which can do the magic if used properly used together. On
 
 ELK stack is a great open source stack for log aggregation and analytics
 
+# Downloads
+
+https://www.elastic.co/downloads/elas...
+
+https://www.elastic.co/downloads/kibana
+
+https://www.elastic.co/downloads/logs...
+
+Logstash Configuration Document
+https://elastic.co/guide/en/logstash/...
+
+# What is ELK?
 ElasticSearch - is a NoSQL database and distributed search and analytics engine
 if you look at the benefits
 easy installation and use
@@ -30,6 +44,8 @@ you can create graphical representation with logs very easily. even beginners ca
 
 ELK stack is getting quite popular nowadays with a very large open source community
 
+![title](https://github.com/SimpleProgramming/microservice-logging/blob/master/Screen%20Shot%202019-03-26%20at%206.04.36%20PM.png)
+
 If you have to compare Splunk with ELK - actually both are very good log platforms
 
 Splunk actually edges out ELK because of the less configuration needed to configure in Splunk forwarders, when compared to Beats and Logstash in ELK
@@ -47,11 +63,3 @@ Splunk is used by Adobe, CISCO, Symantec, Coca-cola, etc
 
 ELK is used by StackOverflow, LinkedIn, NetFlix, OpenStack, Medium.com, Accenture, etc
 
-https://www.elastic.co/downloads/elas...
-
-https://www.elastic.co/downloads/kibana
-
-https://www.elastic.co/downloads/logs...
-
-Logstash Configuration Document
-https://elastic.co/guide/en/logstash/...
