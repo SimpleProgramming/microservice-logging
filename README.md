@@ -12,14 +12,15 @@ ELK stack is a great open source stack for log aggregation and analytics
 
 # Downloads
 
-https://www.elastic.co/downloads/elas...
+https://www.elastic.co/downloads/elasticsearch
 
 https://www.elastic.co/downloads/kibana
 
-https://www.elastic.co/downloads/logs...
+https://www.elastic.co/downloads/logstash
 
-Logstash Configuration Document
-https://elastic.co/guide/en/logstash/...
+# Logstash Configuration Document
+
+https://elastic.co/guide/en/logstash/current/configuration.html
 
 # What is ELK?
 ElasticSearch - is a NoSQL database and distributed search and analytics engine
